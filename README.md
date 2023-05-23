@@ -4,7 +4,7 @@
 </p>
 
 <h1>Create an Azure Account and Deploy a Virtual Machine</h1>
-Microsoft Azure is a cloud computing platform with numerous products and services. This guide will demonstrate how to create an account, utilize the portal, and create a virtual machine.
+In this guide, we will explore Microsoft Azure, a comprehensive cloud computing platform offering a wide array of products and services. You will learn how to create an account, navigate the portal effectively, and master the process of creating a virtual machine.
 
 <h2>Environments and Technologies Used</h2>
 
@@ -19,7 +19,7 @@ Microsoft Azure is a cloud computing platform with numerous products and service
 - Step 4: Connect to virtual machine using Microsoft Remote Desktop on macOS
 
 <h3>Step 1: Create Azure Account</h3>
-First step is to create an Azure account. You can create an account with $200 of free credit for a month. 
+To begin, the initial step involves setting up your own Azure account. When creating an account, you will be delighted to know that you receive a generous $200 worth of free credit, valid for an entire month, but only till the date, as soon as it passes you will need to pay as you go.
 
 <br>
 <br>
@@ -33,19 +33,19 @@ Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
 <img src="https://i.imgur.com/mSLAKSQ.png" height="80%" width="80%" alt="Azure Free Services"/>
 </p>
 
-Follow all the prompts to create the account. A credit card will be needed but will not be charged until the $200 credit runs out or the account has been active for a month. After you create your account, you are now a tenant in Azure!
+In this guide, we will walk you through the process of creating an account on Microsoft Azure. By signing up, you will be eligible to receive $200 of free credit for a month. We will cover the steps to create your account, explore the Azure portal, and demonstrate how to create a virtual machine.
 
 <h3>Step 2: Azure portal and resource groups</h3>
 
-Now that the account has been created, let's go over how to navigate the Azure portal. The portal is where you can find all the products/resources and manage your subscriptions. It is a user friendly interface.
+With your account successfully created, let's delve into navigating the Azure portal. The portal serves as the central hub where you can access various products, resources, and effectively manage your subscriptions. Designed with user-friendliness in mind, the portal offers an intuitive interface to streamline your Azure experience.
 
-The portal is located [here](https://www.portal.azure.com).
+The portal is [here](https://www.portal.azure.com).
 
 <p align="center">
 <img src="https://i.imgur.com/8JnxniW.png" height="80%" width="80%" alt="Azure Portal with RG Arrow"/>
 </p>
 
-In order to utilize some of the services in Azure, a resource group needs to be created. Resource groups store all resources that you are utilizing in Azure. This example will show how to deploy a Windows 10 virtual machine.
+To utilize Azure services, it is necessary to create a resource group. Resource groups act as containers for storing all your Azure resources. In this example, we will guide you through the deployment of a Windows 10 virtual machine, while also demonstrating the creation of a resource group.
 
 <p align="center">
 <img src="https://i.imgur.com/x5P8pDQ.png" height="80%" width="80%" alt="Azure Resource Groups with circle"/>
@@ -58,7 +58,7 @@ When ready, click create resource groups. From there, you will need to name your
 </p>
 
 <h3>Step 3: Create a virtual machine</h3>
-Next step is to create a virtual machine. At the portal, click on virtual machine and click create. Once at the create virtual machine menu, follow all the instructions. Make sure to fill out all the areas that have a red asterisk on them (resource group, name, etc.). Don't worry about the other tabs such as disks and networking as they will be prefilled. Make sure you remember the username and password! Once this is all completed, your virtual machine will appear in your resource group. 
+Now, let's proceed to create a virtual machine. Within the Azure portal, navigate to the virtual machine section and click on "Create." This will take you to the create virtual machine menu. Follow the instructions provided, ensuring to fill out all the required fields marked with a red asterisk, such as resource group and name. You can disregard the other tabs like disks and networking, as they will be prepopulated for you. Remember to note down the username and password you set. Once you've completed these steps, your virtual machine will be visible within your resource group.
 
 <p align="center">
 <img src="https://i.imgur.com/XC53r2o.png" height="80%" width="80%" alt="Virtual Machine Menu with arrow"/>
@@ -91,8 +91,8 @@ Once Microsoft Remote Desktop is downloaded, open the application. Click add PC.
 <img src="https://i.imgur.com/4IKJFik.png" height="80%" width="80%" alt="Windows 10 VM"/>
 </p>
 
-Congratulations! You have created your first virtual machine within Azure. If you want to save your free $200 credits, make sure you delete ALL resource groups because most of Azure services are pay as you go (unless otherwise stated). Thank you!
+Congratulations on creating your first virtual machine in Azure! To preserve your free $200 credits, remember to delete ALL resource groups since most Azure services follow a pay-as-you-go model. Thank you!
 
 
 
-**REMEMBER TO DELETE YOUR RESOURCES ONCE YOU ARE DONE WITH THE LAB!**
+**DELETE ALL RESOURCES AS TO NOT EAT UP YOUR CREDIT**
